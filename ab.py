@@ -242,7 +242,7 @@ def main():
     else:
         out = open(options.out_file, 'aw')
 
-    pb = PB(urls, options.c, options.n, options.T, options.p, out)
+    pb = PB(urls, options.c, options.n, out)
     pb.start()
 
     
